@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     # hostname     = "app.terraform.io"
-    organization = "personal-mobile"
+    organization = "oscorp_w"
     workspaces {
       name = "poc_env"
     }
